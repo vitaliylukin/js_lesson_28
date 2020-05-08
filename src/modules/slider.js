@@ -9,7 +9,7 @@ const slider = () => {
     for (let i = 0; i < slide.length; i++) {
         let newDot = document.createElement('li');
         newDot.classList.add('dot');
-        tabDots.append(newDot);
+        tabDots.appendChild(newDot);
         if (i === 0) {
             newDot.classList.add('dot-active');
         }
