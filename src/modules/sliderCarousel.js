@@ -1,6 +1,8 @@
 'use strict';
 
 
+import tabs from "./modules/tabs";
+
 class SliderCarousel  {
     constructor({
                     main,
@@ -183,6 +185,9 @@ class SliderCarousel  {
     }
 
 }
+
+
+export default SliderCarousel;
 
 
 

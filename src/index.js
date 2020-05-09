@@ -17,6 +17,7 @@ import calc from './modules/calc';
 import sendForm from './modules/sendForm';
 import portfolioChangePhotos from './modules/portfolioChangePhotos';
 import scrollAnchors from "./modules/scrollAnchors";
+import SliderCarousel from "./modules/sliderCarousel";
 
 //Timer Block
 countTimer('30 June 2020'); //передаем дату
@@ -36,4 +37,6 @@ sendForm();
 portfolioChangePhotos();
 //Scroll Anchors
 scrollAnchors();
+
+SliderCarousel;
 
